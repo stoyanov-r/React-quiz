@@ -1,0 +1,22 @@
+.DS_Store
+.idea
+*.ai
+*.log
+*.pdf
+*.sublime*
+# *.css
+node_modules/
+Thumbs.db
+# build/
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# build/index.html
+# css/style.css
+# css/style.min.css
+=======
+>>>>>>> parent of 269f4ba... add build folder
+=======
+>>>>>>> parent of 269f4ba... add build folder
+=======
+>>>>>>> parent of 269f4ba... add build folder
