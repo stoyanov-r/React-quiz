@@ -1,0 +1,25 @@
+.MenuToggle {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    background-image: url(./img/menu__burger.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 3%;
+    left: 3%;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    transition: .22s ease-in;
+    z-index: 5;
+    &:hover {
+        opacity: .7
+    }
+
+    &.open {
+        background-image: url(./img/menu__cross.svg);
+        left: 83%;
+    }
+}
+
