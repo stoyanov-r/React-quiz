@@ -1,0 +1,45 @@
+.FinishQuiz {
+    padding: 20px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    & ol {
+        padding: 0;
+        margin: 0;
+        margin-left: 16px;
+    }
+    & .check {
+        position: relative;
+        &::before{
+            position: absolute;
+            content: "";
+            width: 14px;
+            height: 7.5px;
+            transform: rotate(-45deg);
+            border-left: 4px solid #3dc644;
+            border-bottom: 4px solid #3dc644;
+            margin-left: 10px;
+            top: 2px
+        }
+    }
+
+    & .cross {
+        position: relative;
+        &::before,
+        &::after{
+            position: absolute;
+            content: "";
+            width: 19px;
+            height: 4px;
+            transform: rotate(-45deg);
+            background-color: #f25b26;
+            margin-left: 10px;
+            top: 10px;
+        }
+        &::after{
+            transform: rotate(45deg);
+        }
+    }
+}
